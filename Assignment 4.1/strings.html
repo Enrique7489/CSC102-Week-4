@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Enrique Noriega 1/27/25-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stringsCSS.css">
+    <script src="stringsJava.js"></script>
+    <title>Palindrome Checker</title>
+</head>
+<body>
+
+    <h1>Palindrome Checker</h1>
+   
+
+    <nav>
+          <a href="login.html">Login</a>  
+          <a href="index.html">Home</a>
+          <a href="boards.html">Boards</a>
+          <a href="game.html">Game</a>
+    </nav>
+    <br><br>
+
+<!-- Box Input for Palidrome Checker -->
+    <h3>Enter string to check for Palindrome</h3>
+    <form id="palInput" onsubmit="return false">
+
+        Input: <input type="text" id="initialString"/>
+        <input type="submit" onclick="checkPal();"/>
+
+    </form>
+
+    <p id="resultsString">
+        ...
+    </p>
+
+<br><br><br>
+
+<!-- Box Input for Full Name and Zip Code -->
+    <p id="box2Results">Enter info below</p>
+    <form id="box2" onsubmit="return false">
+        First Name: <input type="text" id="fName"/><br>
+        Last Name: <input type="text" id="lName"/><br>
+        Zip Code: <input type="number" id="zCode"/><br>
+        <input type="submit" onclick="box2Input();"/>
+
+    </form>
+
+<img id="submitSuccess" src="images/CorgiValidatedPNG.png" style="display: none;"> 
+<!-- Image is displayed after valid credentials / "display: none;" prevents it from initially appearing -->
+    
+</body>
+</html>
