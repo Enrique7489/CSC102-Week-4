@@ -1,0 +1,79 @@
+body
+{
+    background-image: radial-gradient(goldenrod, teal);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-decoration: underline;
+}
+h3
+{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+#CorgiIdle
+{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+}
+
+
+/* Added a .container to center the button */
+.container
+{
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 15px rgb(114, 230, 224);
+
+}
+nav
+{
+    background-color: rgba(135, 207, 207, 0.404);
+    color:black;
+    border: 2px groove rgb(92, 100, 55);    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+nav:hover {
+    color: white;
+    background-color: rgba(49, 137, 143, 0.541);
+    border-radius: 5px;
+}
+button:hover
+{
+    font-size: larger;
+    border-color: rgba(255, 255, 255, 0.733);
+    border-radius: 2px;
+}
+
+footer
+{
+    text-align: center;
+    font-size: small;
+    color: darkslategray;
+    margin-top: 20px;
+}
+
+#firstFuncOut
+{
+    font-size: x-large;
+
+}
+
+
